@@ -3,6 +3,6 @@
 // let shouldBeConst = 'never changes' // prefer-const
 
 export const sum = (a, b) => {
-  return a + b
+  return a + b + 1
 }
 console.log(sum(1, 2))
